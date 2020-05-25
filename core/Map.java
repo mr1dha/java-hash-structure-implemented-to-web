@@ -77,7 +77,7 @@ public class Map<K, V>
 			bucketArray.set(bucketIndex, head.next); 
 
 		return head.value; 
-	} 
+	}
 
 	// Returns value for a key 
 	public V get(K key) 

@@ -1,13 +1,3 @@
-body {
-    background: rgb(160, 186, 187) !important;
-    font-family: sans-serif;
-}
-
-.form-control,
-.input-group-text {
-    border-radius: 100px;
-}
-
-.input-group-text {
-    background: rgb(255, 255, 255);
+.jumbotron {
+    height: 92vh;
 }
