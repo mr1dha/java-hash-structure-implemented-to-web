@@ -37,7 +37,7 @@ public class Main
             System.err.println("Unable to read the file.");
         }
 
-        map.search(args[0], map.get(args[0]));
+        map.searchEditor(args[0], map.get(args[0]));
 
 		// System.out.println(map.size()); 
 		// System.out.println(map.isEmpty()); 

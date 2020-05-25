@@ -1,6 +1,7 @@
 // Java program to demonstrate implementation of our 
 // own hash table with chaining for collision detection 
-import java.util.ArrayList; 
+import java.util.ArrayList;
+import java.util.Collections;  
 
 
 // Class to represent entire hash table 
@@ -148,9 +149,11 @@ public class Map<K, V>
 	{
 		if(result != null)
 		{
-			System.out.print("<ol>");
-			result.forEach((e)->System.out.print("<li>"+e+"</li>"));
-			System.out.print("</ol>");
+			Collections.sort(result);
+			System.out.println("<h5 class='mb-3'>Daftar artikel dengan editor "+key+" </h5>");
+			System.out.print("<ul class='list-group'>");
+			result.forEach((e)->System.out.print("<li class='list-group-item list-group-item-action'>"+e+"</li>"));
+			System.out.print("</ul>");
 		}
 		else
 		{
